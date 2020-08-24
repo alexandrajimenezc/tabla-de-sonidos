@@ -9,6 +9,7 @@ font-family: sans-serif;
 background: #fc00ff;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+user-select: none;
 }
 .container
 {
@@ -69,7 +70,7 @@ transition: .1s;
 } */
 .playing
 {
-transform: scale(1.1);
+transform: scale(1.4);
 border-color: #00dbde;
 box-shadow: 0 0 1rem#00dbde;
 background: #a2dcdd;
