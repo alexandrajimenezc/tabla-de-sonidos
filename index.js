@@ -4,9 +4,9 @@ const removeTransition = e => {
  }
 
 const playSound = e =>{
-  let keyCode;
+  let keyCode; 
   (e.type === 'click')? keyCode = e.currentTarget.dataset.key :  keyCode = e.keyCode;
-  console.log(keyCode)
+  /* console.log(keyCode) */
    const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
    const key = document.querySelector(`div[data-key="${keyCode}"]`);
    if (!audio) return;
